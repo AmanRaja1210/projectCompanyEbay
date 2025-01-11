@@ -20,7 +20,7 @@ public class ebayWebPage_stepDef {
     public void i_navigate_the_url_of_the_website() {
         String expectedUrl = "https://www.ebay.com/";
         driver.get(expectedUrl);
-        test.pass("Navigated to Ebay HomePage");
+        test.pass("<b>Navigated to Ebay HomePage</b>");
         String actualUrl = driver.getCurrentUrl();
         Assert.assertEquals(expectedUrl, actualUrl);
 

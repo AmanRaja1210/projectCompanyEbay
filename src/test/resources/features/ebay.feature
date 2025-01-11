@@ -1,6 +1,7 @@
 Feature:Open Ebay Site and Add to Cart
 
 
+  @ebayUI
   Scenario: Login Into Ebay Site and Add Book to Cart
     Given I navigate the URL of the website
     When I search for the book
